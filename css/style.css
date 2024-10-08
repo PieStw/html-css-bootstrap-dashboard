@@ -23,4 +23,31 @@
     width: 60px;
   }
 
-  
+  .date{
+    display: none;
+  }
+
+  .card>p{
+    margin: 0;
+  }
+
+  .button{
+    width: 100%;
+  }
+
+  .button>p{
+    text-align: start;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .btn-light{
+    background-color: white;
+    border: 0;
+  }
+
+  @media screen and (min-width: 992px) {
+    .date{
+      display: table-cell;
+    }
+  }
