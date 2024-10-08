@@ -14,3 +14,11 @@
     width: 1000px;
     max-width: 100%;
   }
+
+
+  /* # HEADER */
+
+  .img{
+    height: 60px;
+    width: 60px;
+  }
